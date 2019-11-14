@@ -78,8 +78,10 @@ header .profile-image:hover {
 }
 
 .dog-photo  {
-  max-width: 500px;
+  max-width: 400px;
+  align-self: center;
 }
+
 
 
 .tag {
@@ -105,7 +107,8 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.contact {
+.contact,
+.experience_text {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 100%;
@@ -116,7 +119,8 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.card:hover {
+.card:hover,
+.contact:hover {
   border-color: #ff99ff;
 }
 
@@ -197,6 +201,16 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  .flex-additional {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
   header {
     min-height: 470px;
   }
@@ -223,3 +237,9 @@ a.social:hover {
 
 }
 
+/* Clearfix */
+  .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
