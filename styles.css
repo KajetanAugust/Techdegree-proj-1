@@ -76,6 +76,12 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.1) rotate(360deg);
 }
+
+.dog-photo  {
+  max-width: 500px;
+}
+
+
 .tag {
   background-color: #efefef;
   color: black;
