@@ -78,7 +78,7 @@ header .profile-image:hover {
 }
 
 .dog-photo  {
-  max-width: 400px;
+  max-width: 90%;
   align-self: center;
 }
 
@@ -235,6 +235,13 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
+  .dog-photo  {
+    max-width: 500px;
+    align-self: center;
+    margin-top: 10px;
+  }
+  
 
 }
 
