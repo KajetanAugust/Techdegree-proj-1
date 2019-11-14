@@ -108,7 +108,7 @@ header .profile-image:hover {
 }
 
 .contact,
-.experience_text {
+.experience-text {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 100%;
@@ -120,7 +120,8 @@ header .profile-image:hover {
 }
 
 .card:hover,
-.contact:hover {
+.contact:hover,
+.experience-text:hover {
   border-color: #ff99ff;
 }
 
@@ -207,7 +208,7 @@ a.social:hover {
     max-width: 1200px;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 30px auto;
     flex-direction: column;
 }
 
